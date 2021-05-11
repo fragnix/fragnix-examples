@@ -1,0 +1,12 @@
+[
+    {
+        "name": "elimZerosInteger",
+        "module": "GHC.Float.ConversionUtils",
+        "entity": "value"
+    },
+    {
+        "name": "elimZerosInt#",
+        "module": "GHC.Float.ConversionUtils",
+        "entity": "value"
+    }
+]

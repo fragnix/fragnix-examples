@@ -1,0 +1,39 @@
+{
+    "symbols": [
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "7238157851771965169"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "main"
+            }
+        },
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "5381302167227396092"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "while_true"
+            }
+        },
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "6055509185792013467"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "prompt"
+            }
+        }
+    ],
+    "name": "FfiEx",
+    "loafID": "2223267443918409793"
+}

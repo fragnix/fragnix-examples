@@ -1,0 +1,12 @@
+[
+    {
+        "name": "startProfTimer",
+        "module": "GHC.Profiling",
+        "entity": "value"
+    },
+    {
+        "name": "stopProfTimer",
+        "module": "GHC.Profiling",
+        "entity": "value"
+    }
+]

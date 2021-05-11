@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Natural",
+        "module": "GHC.Natural",
+        "entity": "data"
+    }
+]

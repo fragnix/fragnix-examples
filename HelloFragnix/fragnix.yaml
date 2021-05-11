@@ -1,0 +1,14 @@
+name: ''
+description: ''
+authors: ''
+license: ''
+categories: []
+
+mainIs: Main.hs
+environments:
+  Greet:
+    - '7464755807272960768'
+    - '3456823455484060986'
+slices: []
+foreignSlices: []
+cbitsFolder: cbits

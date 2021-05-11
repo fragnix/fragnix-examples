@@ -1,0 +1,7 @@
+[
+    {
+        "name": "unsafeLocalState",
+        "module": "Foreign.Marshal.Unsafe",
+        "entity": "value"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "coerce",
+        "module": "GHC.Prim",
+        "entity": "value"
+    },
+    {
+        "name": "Coercible",
+        "module": "GHC.Types",
+        "entity": "class"
+    }
+]

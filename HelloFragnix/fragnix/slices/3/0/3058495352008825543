@@ -1,0 +1,74 @@
+{
+    "sliceID": "3058495352008825543",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "String"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Types"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "System.IO"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "putStrLn"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Operator",
+                    "contents": "++"
+                }
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "putHi :: String -> IO ()",
+        "putHi x = putStrLn (\"Hi \" ++ x)"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "symbols": [
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "4671887181985828978"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "putHello"
+            }
+        },
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "3058495352008825543"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "putHi"
+            }
+        }
+    ],
+    "name": "Greet",
+    "loafID": "7464755807272960768"
+}

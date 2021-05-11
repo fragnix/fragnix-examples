@@ -1,0 +1,12 @@
+[
+    {
+        "name": "new",
+        "module": "GHC.Event.Poll",
+        "entity": "value"
+    },
+    {
+        "name": "available",
+        "module": "GHC.Event.Poll",
+        "entity": "value"
+    }
+]

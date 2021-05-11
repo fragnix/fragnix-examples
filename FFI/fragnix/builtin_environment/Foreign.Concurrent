@@ -1,0 +1,12 @@
+[
+    {
+        "name": "newForeignPtr",
+        "module": "Foreign.Concurrent",
+        "entity": "value"
+    },
+    {
+        "name": "addForeignPtrFinalizer",
+        "module": "Foreign.Concurrent",
+        "entity": "value"
+    }
+]

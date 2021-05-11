@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Unit",
+        "module": "GHC.Tuple",
+        "entity": "data"
+    },
+    {
+        "name": "Unit",
+        "module": "GHC.Tuple",
+        "type": "Unit",
+        "entity": "constructor"
+    }
+]

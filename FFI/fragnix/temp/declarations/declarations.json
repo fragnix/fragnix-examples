@@ -1,0 +1,335 @@
+[
+    {
+        "declarationextensions": [
+            "EnableExtension MultiParamTypeClasses",
+            "EnableExtension NondecreasingIndentation",
+            "EnableExtension ExplicitForAll",
+            "EnableExtension PatternGuards"
+        ],
+        "declarationast": "main\n  = bracket_ (Termios.unset_icanon 0) (Termios.set_icanon 0)\n      (while_true prompt)",
+        "declarationgenre": "Value",
+        "mentionedsymbols": [
+            [
+                {
+                    "name": "bracket_",
+                    "module": "Control.Exception.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "bracket_",
+                    "module": "Control.Exception.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "unset_icanon",
+                    "module": "F7794241860471296499",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "unset_icanon",
+                    "module": "F7794241860471296499",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "unset_icanon",
+                    "module": "F7794241860471296499",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "set_icanon",
+                    "module": "F6856692107657246595",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "set_icanon",
+                    "module": "F6856692107657246595",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "set_icanon",
+                    "module": "F6856692107657246595",
+                    "entity": "value"
+                },
+                "Termios"
+            ],
+            [
+                {
+                    "name": "while_true",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "while_true",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "prompt",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "prompt",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ]
+        ],
+        "declaredsymbols": [
+            {
+                "name": "main",
+                "module": "FfiEx",
+                "entity": "value"
+            }
+        ]
+    },
+    {
+        "declarationextensions": [
+            "EnableExtension MultiParamTypeClasses",
+            "EnableExtension NondecreasingIndentation",
+            "EnableExtension ExplicitForAll",
+            "EnableExtension PatternGuards"
+        ],
+        "declarationast": "while_true op\n  = do continue <- op\n       when continue (while_true op)",
+        "declarationgenre": "Value",
+        "mentionedsymbols": [
+            [
+                {
+                    "name": "when",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "when",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "while_true",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "while_true",
+                    "module": "FfiEx",
+                    "entity": "value"
+                },
+                null
+            ]
+        ],
+        "declaredsymbols": [
+            {
+                "name": "while_true",
+                "module": "FfiEx",
+                "entity": "value"
+            }
+        ]
+    },
+    {
+        "declarationextensions": [
+            "EnableExtension MultiParamTypeClasses",
+            "EnableExtension NondecreasingIndentation",
+            "EnableExtension ExplicitForAll",
+            "EnableExtension PatternGuards"
+        ],
+        "declarationast": "prompt\n  = do putStr \"? \"\n       hFlush stdout\n       c <- getChar\n       putStrLn $ \"you typed \" ++ [c]\n       return (c /= 'q')",
+        "declarationgenre": "Value",
+        "mentionedsymbols": [
+            [
+                {
+                    "name": "putStr",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "putStr",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "hFlush",
+                    "module": "GHC.IO.Handle",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "hFlush",
+                    "module": "GHC.IO.Handle",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "stdout",
+                    "module": "GHC.IO.Handle.FD",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "stdout",
+                    "module": "GHC.IO.Handle.FD",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "getChar",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "getChar",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "putStrLn",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "putStrLn",
+                    "module": "System.IO",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "$",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "$",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "++",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "++",
+                    "module": "GHC.Base",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "return",
+                    "module": "GHC.Base",
+                    "entity": "method",
+                    "class": "Monad"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "return",
+                    "module": "GHC.Base",
+                    "entity": "method",
+                    "class": "Monad"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "/=",
+                    "module": "GHC.Classes",
+                    "entity": "method",
+                    "class": "Eq"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "/=",
+                    "module": "GHC.Classes",
+                    "entity": "method",
+                    "class": "Eq"
+                },
+                null
+            ]
+        ],
+        "declaredsymbols": [
+            {
+                "name": "prompt",
+                "module": "FfiEx",
+                "entity": "value"
+            }
+        ]
+    }
+]

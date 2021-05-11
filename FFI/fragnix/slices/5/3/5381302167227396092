@@ -1,0 +1,31 @@
+{
+    "sliceID": "5381302167227396092",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Base"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "when"
+                }
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "while_true op\n  = do continue <- op\n       when continue (while_true op)"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}

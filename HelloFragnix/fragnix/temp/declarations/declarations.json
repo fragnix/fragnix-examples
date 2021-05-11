@@ -1,0 +1,74 @@
+[
+    {
+        "declarationextensions": [
+            "EnableExtension MultiParamTypeClasses",
+            "EnableExtension NondecreasingIndentation",
+            "EnableExtension ExplicitForAll",
+            "EnableExtension PatternGuards"
+        ],
+        "declarationast": "main :: IO ()",
+        "declarationgenre": "TypeSignature",
+        "mentionedsymbols": [
+            [
+                {
+                    "name": "main",
+                    "module": "Main",
+                    "entity": "value"
+                },
+                "Main"
+            ],
+            [
+                {
+                    "name": "IO",
+                    "module": "GHC.Types",
+                    "entity": "newtype"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "IO",
+                    "module": "GHC.Types",
+                    "entity": "newtype"
+                },
+                null
+            ]
+        ],
+        "declaredsymbols": []
+    },
+    {
+        "declarationextensions": [
+            "EnableExtension MultiParamTypeClasses",
+            "EnableExtension NondecreasingIndentation",
+            "EnableExtension ExplicitForAll",
+            "EnableExtension PatternGuards"
+        ],
+        "declarationast": "main = putHello \"fragnix\"",
+        "declarationgenre": "Value",
+        "mentionedsymbols": [
+            [
+                {
+                    "name": "putHello",
+                    "module": "F4671887181985828978",
+                    "entity": "value"
+                },
+                null
+            ],
+            [
+                {
+                    "name": "putHello",
+                    "module": "F4671887181985828978",
+                    "entity": "value"
+                },
+                null
+            ]
+        ],
+        "declaredsymbols": [
+            {
+                "name": "main",
+                "module": "Main",
+                "entity": "value"
+            }
+        ]
+    }
+]

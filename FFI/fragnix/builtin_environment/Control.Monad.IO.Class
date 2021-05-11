@@ -1,0 +1,13 @@
+[
+    {
+        "name": "MonadIO",
+        "module": "Control.Monad.IO.Class",
+        "entity": "class"
+    },
+    {
+        "name": "liftIO",
+        "module": "Control.Monad.IO.Class",
+        "entity": "method",
+        "class": "MonadIO"
+    }
+]

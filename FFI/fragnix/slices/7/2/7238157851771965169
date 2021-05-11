@@ -1,0 +1,87 @@
+{
+    "sliceID": "7238157851771965169",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "Control.Exception.Base"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "bracket_"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "7794241860471296499"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "unset_icanon"
+                }
+            },
+            "qualification": "Termios"
+        },
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "6856692107657246595"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "set_icanon"
+                }
+            },
+            "qualification": "Termios"
+        },
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "5381302167227396092"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "while_true"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "OtherSlice",
+                "contents": "6055509185792013467"
+            },
+            "usedName": {
+                "tag": "ValueName",
+                "valueName": {
+                    "tag": "Identifier",
+                    "contents": "prompt"
+                }
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "main\n  = bracket_ (Termios.unset_icanon 0) (Termios.set_icanon 0)\n      (while_true prompt)"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}

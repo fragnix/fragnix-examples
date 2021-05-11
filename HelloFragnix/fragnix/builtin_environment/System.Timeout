@@ -1,0 +1,7 @@
+[
+    {
+        "name": "timeout",
+        "module": "System.Timeout",
+        "entity": "value"
+    }
+]

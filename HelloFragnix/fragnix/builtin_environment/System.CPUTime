@@ -1,0 +1,12 @@
+[
+    {
+        "name": "getCPUTime",
+        "module": "System.CPUTime",
+        "entity": "value"
+    },
+    {
+        "name": "cpuTimePrecision",
+        "module": "System.CPUTime",
+        "entity": "value"
+    }
+]

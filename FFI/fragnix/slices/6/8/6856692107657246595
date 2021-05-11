@@ -1,0 +1,174 @@
+{
+    "sliceID": "6856692107657246595",
+    "uses": [
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "Foreign.C.Types"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "CInt"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Types"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "Foreign.C.Types"
+            },
+            "usedName": {
+                "constructorName": {
+                    "tag": "Identifier",
+                    "contents": "CInt"
+                },
+                "tag": "ConstructorName",
+                "constructorTypeName": {
+                    "tag": "Identifier",
+                    "contents": "CInt"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "GHC.Types"
+            },
+            "usedName": {
+                "constructorName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "ConstructorName",
+                "constructorTypeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "Foreign.C.Types"
+            },
+            "usedName": {
+                "constructorName": {
+                    "tag": "Identifier",
+                    "contents": "CSize"
+                },
+                "tag": "ConstructorName",
+                "constructorTypeName": {
+                    "tag": "Identifier",
+                    "contents": "CSize"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "Builtin",
+                "contents": "System.Posix.Types"
+            },
+            "usedName": {
+                "constructorName": {
+                    "tag": "Identifier",
+                    "contents": "COff"
+                },
+                "tag": "ConstructorName",
+                "constructorTypeName": {
+                    "tag": "Identifier",
+                    "contents": "COff"
+                }
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "ForeignSlice",
+                "contents": "1270696205006539904"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "CInt"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "ForeignSlice",
+                "contents": "3903668933078609972"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "CInt"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "ForeignSlice",
+                "contents": "1270696205006539904"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        },
+        {
+            "reference": {
+                "tag": "ForeignSlice",
+                "contents": "3903668933078609972"
+            },
+            "usedName": {
+                "typeName": {
+                    "tag": "Identifier",
+                    "contents": "IO"
+                },
+                "tag": "TypeName"
+            },
+            "qualification": null
+        }
+    ],
+    "fragment": [
+        "foreign import ccall \"set_icanon\" set_icanon :: CInt -> IO ()"
+    ],
+    "instances": [],
+    "language": {
+        "extensions": [
+            "ForeignFunctionInterface",
+            "MultiParamTypeClasses",
+            "NondecreasingIndentation",
+            "ExplicitForAll",
+            "PatternGuards"
+        ]
+    }
+}

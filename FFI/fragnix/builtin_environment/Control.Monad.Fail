@@ -1,0 +1,13 @@
+[
+    {
+        "name": "MonadFail",
+        "module": "Control.Monad.Fail",
+        "entity": "class"
+    },
+    {
+        "name": "fail",
+        "module": "Control.Monad.Fail",
+        "entity": "method",
+        "class": "MonadFail"
+    }
+]

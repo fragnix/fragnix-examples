@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Type",
+        "module": "GHC.Types",
+        "entity": "type"
+    },
+    {
+        "name": "Constraint",
+        "module": "GHC.Types",
+        "entity": "data"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "symbols": [
+        {
+            "symbolModule": {
+                "tag": "OtherSlice",
+                "contents": "290803599891670660"
+            },
+            "tag": "Value",
+            "symbolName": {
+                "tag": "Ident",
+                "contents": "main"
+            }
+        }
+    ],
+    "name": "Main",
+    "loafID": "8075668492242061283"
+}

@@ -1,0 +1,10 @@
+foreignSlices: []
+slices: []
+categories: []
+authors: ''
+cbitsFolder: cbits
+name: ''
+license: ''
+environments: {}
+description: ''
+mainIs: Main.hs

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "unsafeForeignPtrToPtr",
+        "module": "GHC.ForeignPtr",
+        "entity": "value"
+    }
+]
