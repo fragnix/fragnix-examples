@@ -1,5 +1,0 @@
-{
-    "sliceID": "3903668933078609972",
-    "code": "void set_icanon(int fd);\r\nvoid unset_icanon(int fd);",
-    "fileName": "termops.h"
-}

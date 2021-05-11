@@ -1,5 +1,0 @@
-{
-    "sliceID": "1270696205006539904",
-    "code": "#include <termios.h>\r\n#include \"termops.h\"\r\n\r\nvoid set_icanon(int fd)\r\n{\r\n  struct termios term;\r\n  tcgetattr(0, &term);\r\n  term.c_lflag |= ICANON;\r\n  tcsetattr(fd, TCSAFLUSH, &term);\r\n}\r\n\r\nvoid unset_icanon(int fd)\r\n{\r\n  struct termios term;\r\n  tcgetattr(0, &term);\r\n  term.c_lflag &= ~ICANON;\r\n  tcsetattr(fd, TCSAFLUSH, &term);\r\n}",
-    "fileName": "termops.c"
-}

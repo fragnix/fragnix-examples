@@ -5,6 +5,8 @@ authors: ''
 cbitsFolder: cbits
 name: ''
 license: ''
-environments: {}
+environments:
+  Termios:
+    - 4586728620333496794
 description: ''
 mainIs: Main.hs
