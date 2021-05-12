@@ -1,14 +1,12 @@
-name: ''
-description: ''
-authors: ''
-license: ''
+foreignSlices: []
+slices: []
 categories: []
-
-mainIs: Main.hs
-environments:
+authors: ''
+cbitsFolder: cbits
+name: ''
+loaves:
   Greet:
     - '7464755807272960768'
-    - '3456823455484060986'
-slices: []
-foreignSlices: []
-cbitsFolder: cbits
+license: ''
+description: ''
+mainIs: Main.hs
